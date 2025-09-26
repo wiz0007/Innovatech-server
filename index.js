@@ -10,7 +10,7 @@ const app = express();
 // ✅ Enable CORS
 app.use(
   cors({
-    origin: ["https://your-frontend-domain.com","http://localhost:5173"], // frontend URLs
+    origin: ["https://innovatech-server.onrender.com","http://localhost:5173"], // frontend URLs
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
